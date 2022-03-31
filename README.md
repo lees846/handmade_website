@@ -1,2 +1,2 @@
 # Are You Awake?
-## by Shayla Lee 2022
+## A handmade website and nonlinear poem by Shayla Lee 2022
