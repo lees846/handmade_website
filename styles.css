@@ -1,0 +1,198 @@
+body {
+    background-image:linear-gradient(slateblue, rgb(146, 146, 216), slateblue);
+    color:rgb(37, 11, 78);
+    text-align: center;
+    font-family: monospace;
+
+    /*margin: 20%;*/ margin: 0 auto;
+    margin-top: 10%;
+    min-height: 800px;
+    align-content: center;
+    max-width: 60%; /* and use percentages instead of px */
+
+    transition: 0.5s;
+}
+
+a {
+    color: rgb(179, 179, 245);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: white;
+    transition: 0.8s;
+    font-size: 14px;
+    background-color: rgba(230, 230, 250, 0.103);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:visited:hover {
+    color: rgb(94, 43, 177);
+}
+
+h1 {
+    font-size: 24px;
+    transition: 0.5s;
+    color: rgb(5, 4, 80);
+    margin-bottom: 5%;
+}
+
+h1:hover {
+    transition: 0.5s;
+    font-size: 24.5px;
+}
+
+.italics {
+    font-style: italic;
+    margin: 0%;
+    transition: 0.5s;
+}
+
+.italics:hover {
+    font-size: 14.2px;
+    transition: 0.5s;
+}
+
+/* Awake/Asleep pages' cloud */
+.cloud {
+    justify-content: center;
+    margin: 30px;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.cloud:hover {
+    opacity: 1;
+    transition: 1s;
+    margin: 25px;
+}
+
+/* Dream Page */
+.container {
+    max-width: 50%;
+    min-width: 250px;
+    margin: 0 auto;
+    margin-top: 50px; 
+    /* NEED TO MAKE CHANGE AFTER CERTAIN WIDTH */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+a.dream_link {
+    background-color: rgba(230, 230, 250, 0.253);
+    padding: 25px;
+    border-radius: 20px;
+
+    
+    margin: 5px;
+    max-height: 15px;
+}
+
+a.dream_link:hover {
+    margin: 7px;
+    height: auto;
+}
+
+.cloud#goBack {
+    margin: none;
+}
+
+#okay {
+    align-items: center;
+    margin-top: 20%;
+}
+
+.dream_link:visited {
+    color: slateblue;
+    background-color: rgba(230, 230, 250, 0.116);
+    justify-content: center;
+    margin: 30px;
+    opacity: 0.5;
+}
+
+.dream_link:hover:visited {
+    color: slateblue;
+
+    opacity: 0.2;
+}
+
+/* Conclusion page */
+#suppose {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    transition: 0.5s;
+    color: rgb(5, 4, 80);
+    margin-top: 10%;
+}
+
+h2:hover {
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+/* LAST PAGE */
+#finalQuestion {
+    align-content: center; 
+    margin: 50%;
+    margin-top: 50px;
+}
+
+#finalQuestion:hover {
+    align-content: center; 
+    margin: 55%;
+    margin-top: 50px;
+}
+
+#emptyDiv {
+    margin: 26%
+}
+
+h3 {
+    font-size: 10pt;
+    transition: 1s;
+    color: rgb(5, 4, 80);
+    margin: 10px;
+}
+
+h3:hover {
+    transition: 1s;
+    margin: 15px;
+}
+
+p.credits {
+    margin: 2px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+section.container#allPoems {
+    margin-top: 10px;
+}
+
+a.smaller {
+    background-color: rgba(230, 230, 250, 0.253);
+    padding: 10px;
+    border-radius: 20px;
+
+    /* margin-top: none; */
+    margin: -4px;
+    max-height: 15px;
+}
+
+a.smaller:hover {
+    margin: 0px;
+    height: auto;
+}
